@@ -1,0 +1,1298 @@
+LEGIONFORGE rev.1 2026-10-12 15:19:17 (Legion 7.3.5.26124, Win64, Release, Static) (worldserver-daemon)
+<Ctrl-C> to stop.
+
+ __                                         ____
+/\ \                     __                /\  _`\
+\ \ \         __     __ /\_\    ___     ___\ \ \L\_\___   _ __    __      __
+ \ \ \  __  /'__`\ /'_ `\/\ \  / __`\ /' _ `\ \  _\/ __`\/\`'__\/'_ `\  /'__`\
+  \ \ \L\ \/\  __//\ \L\ \ \ \/\ \L\ \/\ \/\ \ \ \/\ \L\ \ \ \//\ \L\ \/\  __/
+   \ \____/\ \____\ \____ \ \_\ \____/\ \_\ \_\ \_\ \____/\ \_\\ \____ \ \____\
+    \/___/  \/____/\/___L\ \/_/\/___/  \/_/\/_/\/_/\/___/  \/_/ \/___L\ \/____/
+                     /\____/                                      /\____/
+                     \_/__/                                       \_/__/
+                 L E G I O N   7 . 3 . 5   ( b u i l d   2 6 1 2 4 )
+                                                     https://legionforge.ru
+
+Using configuration file worldserver.conf.
+Using SSL version: OpenSSL 3.5.9 29 Sep 2026 (library: OpenSSL 3.5.9 29 Sep 2026)
+Using Boost version: 1.86.0
+Updating Auth database...
+>> Auth database is up-to-date! Containing 0 new and 0 archived updates.
+Updating Character database...
+>> Character database is up-to-date! Containing 0 new and 0 archived updates.
+Updating World database...
+>> World database is up-to-date! Containing 0 new and 0 archived updates.
+Updating Hotfixes database...
+>> Hotfixes database is up-to-date! Containing 0 new and 0 archived updates.
+Realm running as realm ID 1
+Using World DB: ADB 735.00
+Using enUS DBC Locale
+Will clear `logs` table of entries older than 1209600 seconds every 10 minutes.
+Using DataDir ./data/
+WORLD: MMap data directory is: ./data/mmaps
+VMap support included. LineOfSight: 1, getHeight: 1, indoorCheck: 1
+VMap data directory is: ./data/vmaps
+Initialize PlayerDump...
+>> Initialized 378 PlayerDump ColumnDefinitions in 59 ms.
+Loading LegionForge strings...
+>> Loaded 1066 trinity strings in 12 ms
+Initialize data stores...
+>> Loading 240 DB2 stores from ./data/dbc/enUS/
+>> DB2 [1/240] loading Achievement.db2
+>> DB2 [2/240] loading AdventureJournal.db2
+>> DB2 [3/240] loading AnimKit.db2
+>> DB2 [4/240] loading AreaGroupMember.db2
+>> DB2 [5/240] loading AreaTable.db2
+>> DB2 [6/240] loading AreaTrigger.db2
+>> DB2 [7/240] loading ArmorLocation.db2
+>> DB2 [8/240] loading Artifact.db2
+>> DB2 [9/240] loading ArtifactAppearance.db2
+>> DB2 [10/240] loading ArtifactAppearanceSet.db2
+>> DB2 [11/240] loading ArtifactCategory.db2
+>> DB2 [12/240] loading ArtifactPower.db2
+>> DB2 [13/240] loading ArtifactPowerLink.db2
+>> DB2 [14/240] loading ArtifactPowerPicker.db2
+>> DB2 [15/240] loading ArtifactPowerRank.db2
+>> DB2 [16/240] loading ArtifactTier.db2
+>> DB2 [17/240] loading ArtifactUnlock.db2
+>> DB2 [18/240] loading AuctionHouse.db2
+>> DB2 [19/240] loading BankBagSlotPrices.db2
+>> DB2 [20/240] loading BannedAddons.db2
+>> DB2 [20/240] BannedAddons.db2 done in 4 ms (total 1567 ms)
+>> DB2 [21/240] loading BarberShopStyle.db2
+>> DB2 [22/240] loading BattlePetAbility.db2
+>> DB2 [23/240] loading BattlePetAbilityEffect.db2
+>> DB2 [24/240] loading BattlePetAbilityState.db2
+>> DB2 [25/240] loading BattlePetAbilityTurn.db2
+>> DB2 [26/240] loading BattlePetBreedQuality.db2
+>> DB2 [27/240] loading BattlePetBreedState.db2
+>> DB2 [28/240] loading BattlePetSpecies.db2
+>> DB2 [29/240] loading BattlePetSpeciesState.db2
+>> DB2 [30/240] loading BattlePetSpeciesXAbility.db2
+>> DB2 [31/240] loading BattlemasterList.db2
+>> DB2 [32/240] loading BroadcastText.db2
+>> DB2 [32/240] BroadcastText.db2 done in 78389 ms (total 80978 ms)
+>> DB2 [33/240] loading CharacterFacialHairStyles.db2
+>> DB2 [34/240] loading CharBaseSection.db2
+>> DB2 [35/240] loading CharSections.db2
+>> DB2 [36/240] loading CharStartOutfit.db2
+>> DB2 [37/240] loading CharTitles.db2
+>> DB2 [38/240] loading ChatChannels.db2
+>> DB2 [39/240] loading ChrClasses.db2
+>> DB2 [40/240] loading ChrClassesXPowerTypes.db2
+>> DB2 [40/240] ChrClassesXPowerTypes.db2 done in 30 ms (total 81572 ms)
+>> DB2 [41/240] loading ChrRaces.db2
+>> DB2 [42/240] loading ChrSpecialization.db2
+>> DB2 [43/240] loading CinematicCamera.db2
+>> DB2 [44/240] loading CinematicSequences.db2
+>> DB2 [45/240] loading ConversationLine.db2
+>> DB2 [46/240] loading CreatureDisplayInfo.db2
+>> DB2 [47/240] loading CreatureDisplayInfoExtra.db2
+>> DB2 [48/240] loading CreatureFamily.db2
+>> DB2 [49/240] loading CreatureModelData.db2
+>> DB2 [50/240] loading CreatureType.db2
+>> DB2 [51/240] loading Criteria.db2
+>> DB2 [52/240] loading CriteriaTree.db2
+>> DB2 [53/240] loading CurrencyTypes.db2
+>> DB2 [54/240] loading Curve.db2
+>> DB2 [55/240] loading CurvePoint.db2
+>> DB2 [56/240] loading DestructibleModelData.db2
+>> DB2 [57/240] loading Difficulty.db2
+>> DB2 [58/240] loading DungeonEncounter.db2
+>> DB2 [59/240] loading DurabilityCosts.db2
+>> DB2 [60/240] loading DurabilityQuality.db2
+>> DB2 [60/240] DurabilityQuality.db2 done in 4 ms (total 84261 ms)
+>> DB2 [61/240] loading Emotes.db2
+>> DB2 [62/240] loading EmotesText.db2
+>> DB2 [63/240] loading EmotesTextSound.db2
+>> DB2 [64/240] loading Faction.db2
+>> DB2 [65/240] loading FactionTemplate.db2
+>> DB2 [66/240] loading GameObjects.db2
+>> DB2 [67/240] loading GameObjectDisplayInfo.db2
+>> DB2 [68/240] loading GarrAbility.db2
+>> DB2 [69/240] loading GarrBuilding.db2
+>> DB2 [70/240] loading GarrBuildingPlotInst.db2
+>> DB2 [71/240] loading GarrClassSpec.db2
+>> DB2 [72/240] loading GarrFollower.db2
+>> DB2 [73/240] loading GarrFollowerXAbility.db2
+>> DB2 [74/240] loading GarrMission.db2
+>> DB2 [75/240] loading GarrPlotBuilding.db2
+>> DB2 [76/240] loading GarrPlot.db2
+>> DB2 [77/240] loading GarrPlotInstance.db2
+>> DB2 [78/240] loading GarrSiteLevel.db2
+>> DB2 [79/240] loading GarrSiteLevelPlotInst.db2
+>> DB2 [80/240] loading GemProperties.db2
+>> DB2 [80/240] GemProperties.db2 done in 85 ms (total 86002 ms)
+>> DB2 [81/240] loading GlyphBindableSpell.db2
+>> DB2 [82/240] loading GlyphProperties.db2
+>> DB2 [83/240] loading GlyphRequiredSpec.db2
+>> DB2 [84/240] loading GuildColorBackground.db2
+>> DB2 [85/240] loading GuildColorBorder.db2
+>> DB2 [86/240] loading GuildColorEmblem.db2
+>> DB2 [87/240] loading GuildPerkSpells.db2
+>> DB2 [88/240] loading Heirloom.db2
+>> DB2 [89/240] loading Holidays.db2
+>> DB2 [90/240] loading ImportPriceArmor.db2
+>> DB2 [91/240] loading ImportPriceQuality.db2
+>> DB2 [92/240] loading ImportPriceShield.db2
+>> DB2 [93/240] loading ImportPriceWeapon.db2
+>> DB2 [94/240] loading ItemAppearance.db2
+>> DB2 [95/240] loading ItemArmorQuality.db2
+>> DB2 [96/240] loading ItemArmorShield.db2
+>> DB2 [97/240] loading ItemArmorTotal.db2
+>> DB2 [98/240] loading ItemBagFamily.db2
+>> DB2 [99/240] loading ItemBonus.db2
+>> DB2 [100/240] loading ItemBonusListLevelDelta.db2
+>> DB2 [100/240] ItemBonusListLevelDelta.db2 done in 74 ms (total 87179 ms)
+>> DB2 [101/240] loading ItemBonusTreeNode.db2
+>> DB2 [102/240] loading ItemChildEquipment.db2
+>> DB2 [103/240] loading ItemClass.db2
+>> DB2 [104/240] loading ItemCurrencyCost.db2
+>> DB2 [105/240] loading ItemDamageAmmo.db2
+>> DB2 [106/240] loading ItemDamageOneHand.db2
+>> DB2 [107/240] loading ItemDamageOneHandCaster.db2
+>> DB2 [108/240] loading ItemDamageTwoHand.db2
+>> DB2 [109/240] loading ItemDamageTwoHandCaster.db2
+>> DB2 [110/240] loading ItemDisenchantLoot.db2
+>> DB2 [111/240] loading ItemEffect.db2
+>> DB2 [112/240] loading Item.db2
+>> DB2 [113/240] loading ItemExtendedCost.db2
+>> DB2 [114/240] loading ItemLevelSelector.db2
+>> DB2 [115/240] loading ItemLevelSelectorQuality.db2
+>> DB2 [116/240] loading ItemLevelSelectorQualitySet.db2
+>> DB2 [117/240] loading ItemLimitCategory.db2
+>> DB2 [118/240] loading ItemLimitCategoryCondition.db2
+>> DB2 [119/240] loading ItemModifiedAppearance.db2
+>> DB2 [120/240] loading ItemPriceBase.db2
+>> DB2 [120/240] ItemPriceBase.db2 done in 135 ms (total 89569 ms)
+>> DB2 [121/240] loading ItemRandomProperties.db2
+>> DB2 [122/240] loading ItemRandomSuffix.db2
+>> DB2 [123/240] loading ItemSearchName.db2
+>> DB2 [124/240] loading ItemSet.db2
+>> DB2 [125/240] loading ItemSetSpell.db2
+>> DB2 [126/240] loading ItemSparse.db2
+>> DB2 [126/240] ItemSparse.db2 done in 4639 ms (total 95588 ms)
+>> DB2 [127/240] loading ItemSpec.db2
+>> DB2 [128/240] loading ItemSpecOverride.db2
+>> DB2 [129/240] loading ItemUpgrade.db2
+>> DB2 [130/240] loading ItemXBonusTree.db2
+>> DB2 [131/240] loading Keychain.db2
+>> DB2 [132/240] loading LFGDungeons.db2
+>> DB2 [133/240] loading Light.db2
+>> DB2 [134/240] loading LiquidType.db2
+>> DB2 [135/240] loading Lock.db2
+>> DB2 [136/240] loading MailTemplate.db2
+>> DB2 [137/240] loading Map.db2
+>> DB2 [138/240] loading MapDifficulty.db2
+>> DB2 [139/240] loading ModifierTree.db2
+>> DB2 [140/240] loading MountCapability.db2
+>> DB2 [140/240] MountCapability.db2 done in 46 ms (total 97267 ms)
+>> DB2 [141/240] loading Mount.db2
+>> DB2 [142/240] loading MountTypeXCapability.db2
+>> DB2 [143/240] loading MountXDisplay.db2
+>> DB2 [144/240] loading Movie.db2
+>> DB2 [145/240] loading NameGen.db2
+>> DB2 [146/240] loading NamesProfanity.db2
+>> DB2 [147/240] loading NamesReserved.db2
+>> DB2 [148/240] loading NamesReservedLocale.db2
+>> DB2 [149/240] loading OverrideSpellData.db2
+>> DB2 [150/240] loading Phase.db2
+>> DB2 [151/240] loading PhaseXPhaseGroup.db2
+>> DB2 [152/240] loading PlayerCondition.db2
+>> DB2 [153/240] loading PowerDisplay.db2
+>> DB2 [154/240] loading PowerType.db2
+>> DB2 [155/240] loading PrestigeLevelInfo.db2
+>> DB2 [156/240] loading PVPDifficulty.db2
+>> DB2 [157/240] loading PVPItem.db2
+>> DB2 [158/240] loading PvpReward.db2
+>> DB2 [159/240] loading PvpTalent.db2
+>> DB2 [160/240] loading PvpTalentUnlock.db2
+>> DB2 [160/240] PvpTalentUnlock.db2 done in 4 ms (total 98994 ms)
+>> DB2 [161/240] loading QuestFactionReward.db2
+>> DB2 [162/240] loading QuestMoneyReward.db2
+>> DB2 [163/240] loading QuestPackageItem.db2
+>> DB2 [164/240] loading QuestSort.db2
+>> DB2 [165/240] loading QuestV2.db2
+>> DB2 [166/240] loading QuestV2CliTask.db2
+>> DB2 [167/240] loading QuestXP.db2
+>> DB2 [168/240] loading RandPropPoints.db2
+>> DB2 [169/240] loading RewardPack.db2
+>> DB2 [170/240] loading RewardPackXCurrencyType.db2
+>> DB2 [171/240] loading RewardPackXItem.db2
+>> DB2 [172/240] loading RulesetItemUpgrade.db2
+>> DB2 [173/240] loading SandboxScaling.db2
+>> DB2 [174/240] loading ScalingStatDistribution.db2
+>> DB2 [175/240] loading Scenario.db2
+>> DB2 [176/240] loading ScenarioStep.db2
+>> DB2 [177/240] loading SceneScript.db2
+>> DB2 [178/240] loading SceneScriptGlobalText.db2
+>> DB2 [179/240] loading SceneScriptPackage.db2
+>> DB2 [180/240] loading SceneScriptText.db2
+>> DB2 [180/240] SceneScriptText.db2 done in 963 ms (total 101396 ms)
+>> DB2 [181/240] loading SkillLine.db2
+>> DB2 [182/240] loading SkillLineAbility.db2
+>> DB2 [183/240] loading SkillRaceClassInfo.db2
+>> DB2 [184/240] loading SoundKit.db2
+>> DB2 [185/240] loading SpecializationSpells.db2
+>> DB2 [186/240] loading Spell.db2
+>> DB2 [186/240] Spell.db2 done in 1534 ms (total 103989 ms)
+>> DB2 [187/240] loading SpellAuraOptions.db2
+>> DB2 [188/240] loading SpellAuraRestrictions.db2
+>> DB2 [189/240] loading SpellCastTimes.db2
+>> DB2 [190/240] loading SpellCastingRequirements.db2
+>> DB2 [191/240] loading SpellCategories.db2
+>> DB2 [192/240] loading SpellCategory.db2
+>> DB2 [193/240] loading SpellClassOptions.db2
+>> DB2 [194/240] loading SpellCooldowns.db2
+>> DB2 [195/240] loading SpellDuration.db2
+>> DB2 [196/240] loading SpellEffect.db2
+>> DB2 [196/240] SpellEffect.db2 done in 2341 ms (total 107559 ms)
+>> DB2 [197/240] loading SpellEquippedItems.db2
+>> DB2 [198/240] loading SpellFocusObject.db2
+>> DB2 [199/240] loading SpellInterrupts.db2
+>> DB2 [200/240] loading SpellItemEnchantment.db2
+>> DB2 [200/240] SpellItemEnchantment.db2 done in 148 ms (total 108106 ms)
+>> DB2 [201/240] loading SpellItemEnchantmentCondition.db2
+>> DB2 [202/240] loading SpellLearnSpell.db2
+>> DB2 [203/240] loading SpellLevels.db2
+>> DB2 [204/240] loading SpellMisc.db2
+>> DB2 [205/240] loading SpellPower.db2
+>> DB2 [206/240] loading SpellPowerDifficulty.db2
+>> DB2 [207/240] loading SpellProcsPerMinute.db2
+>> DB2 [208/240] loading SpellProcsPerMinuteMod.db2
+>> DB2 [209/240] loading SpellRadius.db2
+>> DB2 [210/240] loading SpellRange.db2
+>> DB2 [211/240] loading SpellReagents.db2
+>> DB2 [212/240] loading SpellScaling.db2
+>> DB2 [213/240] loading SpellShapeshift.db2
+>> DB2 [214/240] loading SpellShapeshiftForm.db2
+>> DB2 [215/240] loading SpellTargetRestrictions.db2
+>> DB2 [216/240] loading SpellTotems.db2
+>> DB2 [217/240] loading SpellXSpellVisual.db2
+>> DB2 [218/240] loading SummonProperties.db2
+>> DB2 [219/240] loading TactKey.db2
+>> DB2 [220/240] loading Talent.db2
+>> DB2 [220/240] Talent.db2 done in 99 ms (total 110919 ms)
+>> DB2 [221/240] loading TaxiNodes.db2
+>> DB2 [222/240] loading TaxiPath.db2
+>> DB2 [223/240] loading TaxiPathNode.db2
+>> DB2 [224/240] loading TotemCategory.db2
+>> DB2 [225/240] loading Toy.db2
+>> DB2 [226/240] loading TransmogHoliday.db2
+>> DB2 [227/240] loading TransmogSet.db2
+>> DB2 [228/240] loading TransmogSetGroup.db2
+>> DB2 [229/240] loading TransmogSetItem.db2
+>> DB2 [230/240] loading TransportAnimation.db2
+>> DB2 [231/240] loading TransportRotation.db2
+>> DB2 [232/240] loading UnitPowerBar.db2
+>> DB2 [233/240] loading Vehicle.db2
+>> DB2 [234/240] loading VehicleSeat.db2
+>> DB2 [235/240] loading WMOAreaTable.db2
+>> DB2 [236/240] loading WorldEffect.db2
+>> DB2 [237/240] loading WorldMapArea.db2
+>> DB2 [238/240] loading WorldMapOverlay.db2
+>> DB2 [239/240] loading WorldMapTransforms.db2
+>> DB2 [240/240] loading WorldSafeLocs.db2
+>> DB2 [240/240] WorldSafeLocs.db2 done in 137 ms (total 114153 ms)
+>> Initialized 240 DB2 data stores in 114314 ms
+>> Loaded 187 hotfix records in 4 ms
+>> Loading Cinematic Camera files
+>> Loaded 34 cinematic waypoint sets in 97 ms
+>> Initialized 27 GameTables in 461 ms
+Loading playerbot accounts...
+>> LoadPlayerBot Find 0 characters!
+>> Loaded 50 Player bot account base info in 2 ms
+Loading SpellInfo store...
+SpellEffect record 16: invalid SpellID 305010 - effect skipped.
+>> Validated 50000 SpellEffect records (41 ms elapsed)
+>> Validated 100000 SpellEffect records (88 ms elapsed)
+>> Validated 150000 SpellEffect records (126 ms elapsed)
+>> Validated 200000 SpellEffect records (181 ms elapsed)
+>> Validated 250000 SpellEffect records (221 ms elapsed)
+SpellEffect record 400100: invalid SpellID 304000 - effect skipped.
+SpellEffect record 400101: invalid SpellID 304001 - effect skipped.
+SpellEffect record 400102: invalid SpellID 304002 - effect skipped.
+SpellEffect record 400103: invalid SpellID 304003 - effect skipped.
+SpellEffect record 400104: invalid SpellID 304004 - effect skipped.
+SpellEffect record 400105: invalid SpellID 304005 - effect skipped.
+SpellEffect record 400106: invalid SpellID 304006 - effect skipped.
+SpellEffect record 400107: invalid SpellID 304007 - effect skipped.
+SpellEffect record 400108: invalid SpellID 304008 - effect skipped.
+SpellEffect record 400109: invalid SpellID 304009 - effect skipped.
+SpellEffect record 400110: invalid SpellID 304010 - effect skipped.
+SpellEffect record 400120: invalid SpellID 304020 - effect skipped.
+SpellEffect record 410000: invalid SpellID 305000 - effect skipped.
+SpellEffect record 410001: invalid SpellID 305001 - effect skipped.
+SpellEffect record 410002: invalid SpellID 305002 - effect skipped.
+SpellEffect record 410003: invalid SpellID 305003 - effect skipped.
+SpellEffect record 410004: invalid SpellID 305004 - effect skipped.
+SpellEffect record 410005: invalid SpellID 305005 - effect skipped.
+SpellEffect record 410006: invalid SpellID 305006 - effect skipped.
+>> Validated 300000 SpellEffect records (278 ms elapsed)
+Skipped 1609 incompatible SpellEffect records (first 20 logged). Check SpellEffect.db2 against the 26124 client and rebuild the core if effect IDs exceed its handler table.
+>> SpellInfo: 20000/283817 entries processed (629 ms elapsed)
+>> SpellInfo: 40000/283817 entries processed (708 ms elapsed)
+>> SpellInfo: 60000/283817 entries processed (822 ms elapsed)
+>> SpellInfo: 80000/283817 entries processed (933 ms elapsed)
+>> SpellInfo: 100000/283817 entries processed (1031 ms elapsed)
+>> SpellInfo: 120000/283817 entries processed (1113 ms elapsed)
+>> SpellInfo: 140000/283817 entries processed (1230 ms elapsed)
+>> SpellInfo: 160000/283817 entries processed (1355 ms elapsed)
+>> SpellInfo: 180000/283817 entries processed (1491 ms elapsed)
+>> SpellInfo: 200000/283817 entries processed (1625 ms elapsed)
+>> SpellInfo: 220000/283817 entries processed (1761 ms elapsed)
+>> SpellInfo: 240000/283817 entries processed (1901 ms elapsed)
+>> SpellInfo: 260000/283817 entries processed (2033 ms elapsed)
+>> SpellInfo: 280000/283817 entries processed (2160 ms elapsed)
+>> Loaded SpellInfo store in 2174 ms
+Loading SpellInfo corrections...
+>> Loaded SpellInfo corrections in 146 ms
+Loading SkillLineAbilityMultiMap Data...
+>> Loaded 9360 SkillLineAbility MultiMap Data in 2 ms
+Loading SpellInfo custom attributes...
+>> Loaded 96 spell custom attributes from DB in 19 ms
+>> Loaded SpellInfo custom attributes in 240 ms
+Loading SpellInfo diminishing infos...
+>> Loaded SpellInfo diminishing infos in 63 ms
+Loading SpellInfo immunity infos...
+>> Loaded SpellInfo immunity infos in 90 ms
+Loading PetFamilySpellsStore Data...
+Loading GameObject models...
+>> Loaded 9671 GameObject models in 118 ms
+Loading Script Names...
+>> Loaded 5300 ScriptNames in 8943 ms
+Loading Instance Template...
+>> Loaded 161 instance templates in 2 ms
+Loading instances...
+>> Loaded instances in 7981 ms
+Loading Localization strings...
+>> Loaded 106648 creature locale strings in 12886 ms
+>> Loaded 20376 gameobject_template_locale strings in 1873 ms
+>> Loaded 25125 Quest Template locale strings in 5012 ms
+>> Loaded 226 Quest Offer Reward locale strings in 27 ms
+>> Loaded 63 Quest Request Items locale strings in 14 ms
+>> Loaded 20229 Quest Objectives locale strings in 1388 ms
+>> Loaded 1 PageText locale strings in 28 ms
+>> Loaded 17 gossip_menu_option locale strings in 17 ms
+>> Localization strings loaded in 21265 ms
+Loading Account Roles and Permissions...
+>> Loaded 690 permission definitions, 672 linked permissions and 4 default permissions in 43 ms
+Loading Page Texts...
+>> Loaded 2317 page texts in 200 ms
+Loading Game Object Templates...
+>> Loaded 47465 game object templates in 843 ms
+Loading Game Object template addons...
+GameObject template (Entry: 280650) does not exist but has a record in `gameobject_template_addon`
+GameObject template (Entry: 235794) does not exist but has a record in `gameobject_template_addon`
+>> Loaded 44811 game object template addons in 421 ms
+Loading Transport templates...
+>> Loaded 69 transport templates in 243 ms
+Loading Transport animations and rotations...
+Loading Spell Rank Data...
+>> Loaded 865 spell rank records in 1 ms
+Loading Spell Required Data...
+>> Loaded 21 spell required records in 18 ms
+Loading Spell Group types...
+>> Loaded 272 spell group definitions in 21 ms
+Loading Spell Learn Skills...
+>> Loaded 325 Spell Learn Skills from DBC in 132 ms
+Loading SpellInfo SpellSpecific and AuraState...
+>> Loaded SpellInfo SpellSpecific and AuraState in 91 ms
+Loading Spell Learn Spells...
+>> Loaded 20 spell learn spells, 1075 found in Spell.dbc in 152 ms
+Loading Spell Proc conditions and data...
+>> Loaded 663 spell proc conditions and data in 50 ms
+Generating spell proc data from SpellMap...
+>> Generated spell proc data for 5140 spells in 33 ms
+Loading Aggro Spells Definitions...
+>> Loaded 20 SpellThreatEntries in 14 ms
+Loading Spell Group Stack Rules...
+>> Loaded 8 spell group stack rules in 2 ms
+Loading NPC Texts...
+>> Loaded 10325 npc texts in 236 ms
+Loading Enchant Spells Proc datas...
+>> Loaded 16 enchant proc data definitions in 13 ms
+Loading Item Random Enchantments Table...
+>> Loaded 34276 Item Enchantment definitions in 345 ms
+Loading Disables
+>> Loaded 5450 disables in 126 ms
+Loading Items...
+>> Loaded 104533 item templates in 2552 ms
+Loading Item set names...
+>> Loaded 625 item addon templates in 71 ms
+>> Loaded 15 item script names in 1 ms
+Loading Creature Model Based Info Data...
+>> Loaded 65421 creature model based info in 573 ms
+Loading Creature templates...
+Creature (Entry: 900100) does not have any existing display id in Modelid1/Modelid2/Modelid3/Modelid4.
+Creature (Entry: 29264) has non-existing Spell1 (58859), set to 0.
+Creature (Entry: 900101) does not have any existing display id in Modelid1/Modelid2/Modelid3/Modelid4.
+Creature (Entry: 900102) does not have any existing display id in Modelid1/Modelid2/Modelid3/Modelid4.
+Creature (Entry: 9500100) has invalid unit_class (0) in creature_template. Set to 1 (UNIT_CLASS_WARRIOR).
+Creature (Entry: 900103) does not have any existing display id in Modelid1/Modelid2/Modelid3/Modelid4.
+>> Loaded 110533 creature definitions in 3348 ms
+Loading Equipment templates...
+>> Loaded 23678 equipment templates in 313 ms
+Loading Creature template addons...
+Creature (Entry: 42010) has SPELL_AURA_CONTROL_VEHICLE aura 46598 defined in `auras` field in `creature_template_addon`.
+Creature (Entry: 41366) has SPELL_AURA_CONTROL_VEHICLE aura 46598 defined in `auras` field in `creature_template_addon`.
+Creature (Entry: 43273) has SPELL_AURA_CONTROL_VEHICLE aura 46598 defined in `auras` field in `creature_template_addon`.
+Creature (Entry: 43279) has SPELL_AURA_CONTROL_VEHICLE aura 46598 defined in `auras` field in `creature_template_addon`.
+>> Loaded 23885 creature template addons in 293 ms
+Loading Creature template scaling...
+>> Loaded 14163 creature template scaling data in 222 ms
+Loading Script Params...
+>> Loaded 0 script param creature definitions. DB table `script_params` is empty.
+Loading Reputation Reward Rates...
+>> Loaded 14 reputation_reward_rate in 14 ms
+Loading Creature Reputation OnKill Data...
+>> Loaded 2054 creature award reputation definitions in 112 ms
+Loading Reputation Spillover Data...
+>> Loaded 28 reputation_spillover_template in 13 ms
+Loading Points Of Interest Data...
+>> Loaded 503 Points of Interest definitions in 27 ms
+Loading Creature Base Stats...
+>> Loaded 460 creature base stats in 68 ms
+Loading Creature Data...
+Table `creature` has creature (GUID: 183746 Entry: 783) with `MovementType`=0 (idle) have `spawndist`<>0, set to 0.
+Table `creature` has creature (GUID: 183806 Entry: 781) with `MovementType`=0 (idle) have `spawndist`<>0, set to 0.
+>> Loaded 378946 creatures in 9302 ms
+Loading Temporary Summon Data...
+>> Loaded 1228 temp summons in 76 ms
+Loading pet levelup spells...
+>> Loaded 627 pet levelup and default spells for 79 families in 18 ms
+Loading pet default spells additional to levelup spells...
+Loading summonable creature templates...
+>> Loaded 1489 summonable creature templates in 143 ms
+Loading Creature Addon Data...
+>> Loaded 40541 creature addons in 614 ms
+Loading Gameobject Data...
+>> Loaded 157848 gameobjects in 3335 ms
+Loading GameObject Addon Data...
+>> Loaded 124986 gameobject addons in 1221 ms
+Loading GameObject Quest Items...
+>> Loaded 2042 gameobject quest items in 79 ms
+Loading Creature Quest Items...
+>> Loaded 9631 creature quest items in 176 ms
+Loading Creature Linked Respawn...
+>> Loaded 196 linked respawns in 22 ms
+Loading Weather Data...
+>> Loaded 35 weather definitions in 1 ms
+Loading Quests...
+Quest 38040 objective 277359 has unhandled type 15
+Quest 37630 objective 276597 has unhandled type 15
+Quest 36069 objective 274299 has unhandled type 15
+Quest 37779 objective 276858 has unhandled type 15
+Quest 45542 objective 288113 has unhandled type 15
+Quest 39444 objective 279459 has unhandled type 15
+Quest 38588 objective 278093 has unhandled type 15
+Quest 45439 objective 288001 has unhandled type 15
+Quest 40925 objective 281389 has unhandled type 15
+Quest 38748 objective 278382 has unhandled type 15
+Quest 45626 objective 288232 has unhandled type 15
+Quest 37495 objective 276992 has unhandled type 15
+Quest 37631 objective 276610 has unhandled type 15
+Quest 44049 objective 286167 has unhandled type 15
+Quest 38866 objective 278549 has unhandled type 15
+Quest 41856 objective 282958 has unhandled type 15
+Quest 45390 objective 287904 has unhandled type 15
+Quest 44789 objective 288175 has unhandled type 15
+Quest 38708 objective 278308 has unhandled type 15
+Quest 43241 objective 285102 has unhandled type 15
+Quest 45118 objective 287569 has unhandled type 15
+Quest 46116 objective 288917 has unhandled type 15
+Quest 38020 objective 277342 has unhandled type 15
+Quest 46347 objective 289731 has unhandled type 15
+Quest 39576 objective 279811 has unhandled type 15
+Quest 37965 objective 277242 has unhandled type 15
+Quest 38842 objective 278499 has unhandled type 15
+Quest 38051 objective 277410 has unhandled type 15
+Quest 46201 objective 289381 has unhandled type 15
+Quest 38343 objective 277723 has unhandled type 15
+Quest 39447 objective 279491 has unhandled type 15
+Quest 38819 objective 278680 has unhandled type 15
+Quest 37966 objective 277221 has unhandled type 15
+Quest 46725 objective 289521 has unhandled type 15
+Quest 40951 objective 281729 has unhandled type 15
+Quest 45058 objective 288471 has unhandled type 15
+Quest 38569 objective 278425 has unhandled type 15
+Quest 40594 objective 284382 has unhandled type 15
+Quest 39449 objective 279521 has unhandled type 15
+Quest 42373 objective 284110 has unhandled type 15
+Quest 41992 objective 286565 has unhandled type 15
+Quest 41025 objective 281668 has unhandled type 15
+Quest 41930 objective 283109 has unhandled type 15
+Quest 39424 objective 279381 has unhandled type 15
+Quest 42111 objective 283673 has unhandled type 15
+Quest 42082 objective 283553 has unhandled type 15
+Quest 35641 objective 273928 has unhandled type 15
+Quest 36811 objective 277305 has unhandled type 15
+Quest 36816 objective 275236 has unhandled type 15
+Quest 36826 objective 275281 has unhandled type 15
+Quest 39317 objective 279207 has unhandled type 15
+Quest 38009 objective 277312 has unhandled type 15
+Quest 45203 objective 287685 has unhandled type 15
+Quest 45786 objective 288505 has unhandled type 15
+Quest 45134 objective 287603 has unhandled type 15
+Quest 39446 objective 279479 has unhandled type 15
+Quest 38374 objective 277754 has unhandled type 15
+Quest 37626 objective 276558 has unhandled type 15
+Quest 37865 objective 276930 has unhandled type 15
+Quest 37963 objective 277213 has unhandled type 15
+Quest 39448 objective 279506 has unhandled type 15
+Quest 43600 objective 286789 has unhandled type 15
+Quest 45970 objective 288758 has unhandled type 15
+Quest 37938 objective 277094 has unhandled type 15
+Quest 38876 objective 278618 has unhandled type 15
+Quest 39742 objective 280161 has unhandled type 15
+Quest 39441 objective 279429 has unhandled type 15
+Quest 39998 objective 280149 has unhandled type 15
+Quest 48777 objective 292865 has unhandled type 15
+Quest 48098 objective 292289 has unhandled type 15
+Quest 38870 objective 278584 has unhandled type 15
+Quest 47132 objective 290008 has unhandled type 15
+Quest 40121 objective 280337 has unhandled type 15
+Quest 40896 objective 281345 has unhandled type 15
+Quest 42053 objective 284095 has unhandled type 15
+Quest 38939 objective 278726 has unhandled type 15
+Quest 39451 objective 279537 has unhandled type 15
+Quest 41144 objective 281930 has unhandled type 15
+Quest 48983 objective 293355 has unhandled type 15
+Quest 41024 objective 281665 has unhandled type 15
+Quest 42027 objective 283447 has unhandled type 15
+Quest 41927 objective 283095 has unhandled type 15
+Quest 42277 objective 284179 has unhandled type 15
+Quest 41122 objective 281898 has unhandled type 15
+Quest 36491 objective 274845 has unhandled type 15
+Quest 41026 objective 281672 has unhandled type 15
+Quest 40985 objective 281559 has unhandled type 15
+Quest 36822 objective 275929 has unhandled type 15
+Quest 42013 objective 283365 has unhandled type 15
+Quest 41308 objective 282188 has unhandled type 15
+Quest 41706 objective 282710 has unhandled type 15
+Quest 42174 objective 283844 has unhandled type 15
+Quest 39450 objective 279529 has unhandled type 15
+Quest 43964 objective 286085 has unhandled type 15
+Quest 38372 objective 277751 has unhandled type 15
+Quest 42070 objective 286801 has unhandled type 15
+Quest 43483 objective 285384 has unhandled type 15
+Quest 37627 objective 276567 has unhandled type 15
+Quest 36821 objective 275271 has unhandled type 15
+Quest 38871 objective 278594 has unhandled type 15
+Quest 37970 objective 277244 has unhandled type 15
+Quest 37921 objective 278414 has unhandled type 15
+Quest 39274 objective 279143 has unhandled type 15
+Quest 39443 objective 279451 has unhandled type 15
+Quest 38442 objective 277900 has unhandled type 15
+Quest 38868 objective 278558 has unhandled type 15
+Quest 40316 objective 280662 has unhandled type 15
+Quest 42431 objective 284200 has unhandled type 15
+Quest 39371 objective 279294 has unhandled type 15
+Quest 40050 objective 280228 has unhandled type 15
+Quest 38716 objective 278321 has unhandled type 15
+Quest 36820 objective 275264 has unhandled type 15
+Quest 37625 objective 276549 has unhandled type 15
+Quest 38869 objective 278571 has unhandled type 15
+Quest 37633 objective 276626 has unhandled type 15
+Quest 36347 objective 274629 has unhandled type 15
+Quest 35974 objective 274241 has unhandled type 15
+Quest 35977 objective 274244 has unhandled type 15
+Quest 36070 objective 274300 has unhandled type 15
+Quest 35637 objective 273921 has unhandled type 15
+Quest 36348 objective 274630 has unhandled type 15
+Quest 36490 objective 274836 has unhandled type 15
+Quest 36807 objective 275196 has unhandled type 15
+Quest 36814 objective 276059 has unhandled type 15
+Quest 36815 objective 276166 has unhandled type 15
+Quest 36817 objective 275243 has unhandled type 15
+Quest 36818 objective 275250 has unhandled type 15
+Quest 36819 objective 275257 has unhandled type 15
+Quest 36823 objective 276156 has unhandled type 15
+Quest 36827 objective 275290 has unhandled type 15
+Quest 36860 objective 275689 has unhandled type 15
+Quest 37585 objective 276491 has unhandled type 15
+Quest 37622 objective 276524 has unhandled type 15
+Quest 37623 objective 276535 has unhandled type 15
+Quest 37624 objective 276542 has unhandled type 15
+Quest 37628 objective 276575 has unhandled type 15
+Quest 37629 objective 276583 has unhandled type 15
+Quest 37632 objective 276618 has unhandled type 15
+Quest 37634 objective 276636 has unhandled type 15
+Quest 36489 objective 274832 has unhandled type 15
+Quest 36809 objective 275229 has unhandled type 15
+Quest 36383 objective 274672 has unhandled type 15
+Quest 37866 objective 276947 has unhandled type 15
+Quest 38054 objective 277415 has unhandled type 15
+Quest 38439 objective 277888 has unhandled type 15
+Quest 38865 objective 278539 has unhandled type 15
+Quest 39442 objective 279440 has unhandled type 15
+Quest 39445 objective 279467 has unhandled type 15
+Quest 39452 objective 279559 has unhandled type 15
+Quest 39453 objective 279581 has unhandled type 15
+Quest 39454 objective 279603 has unhandled type 15
+Quest 38043 objective 277378 has unhandled type 15
+Quest 38587 objective 278079 has unhandled type 15
+Quest 38877 objective 278630 has unhandled type 15
+Quest 39119 objective 278930 has unhandled type 15
+Quest 39990 objective 280142 has unhandled type 15
+Quest 39279 objective 279288 has unhandled type 15
+Quest 39029 objective 278820 has unhandled type 15
+Quest 39393 objective 279334 has unhandled type 15
+Quest 43932 objective 285995 has unhandled type 15
+Quest 41421 objective 286803 has unhandled type 15
+Quest 43601 objective 286787 has unhandled type 15
+Quest 43599 objective 286791 has unhandled type 15
+Quest 43598 objective 286793 has unhandled type 15
+Quest 43583 objective 285478 has unhandled type 15
+Quest 43324 objective 288525 has unhandled type 15
+Quest 43248 objective 286795 has unhandled type 15
+Quest 43247 objective 286797 has unhandled type 15
+Quest 43183 objective 286799 has unhandled type 15
+Quest 44759 objective 288151 has unhandled type 15
+Quest 44744 objective 286884 has unhandled type 15
+Quest 44737 objective 287220 has unhandled type 15
+Quest 42023 objective 283425 has unhandled type 15
+Quest 41925 objective 283079 has unhandled type 15
+Quest 41420 objective 286805 has unhandled type 15
+Quest 41257 objective 286808 has unhandled type 15
+Quest 41227 objective 286810 has unhandled type 15
+Quest 41013 objective 281636 has unhandled type 15
+Quest 40111 objective 280323 has unhandled type 15
+Quest 41705 objective 282707 has unhandled type 15
+Quest 42018 objective 283390 has unhandled type 15
+Quest 42025 objective 283436 has unhandled type 15
+Quest 42028 objective 283464 has unhandled type 15
+Quest 42004 objective 283357 has unhandled type 15
+Quest 41896 objective 283032 has unhandled type 15
+Quest 41127 objective 281909 has unhandled type 15
+Quest 43336 objective 285191 has unhandled type 15
+Quest 42087 objective 283584 has unhandled type 15
+Quest 41623 objective 282589 has unhandled type 15
+Quest 44857 objective 287500 has unhandled type 15
+Quest 40978 objective 281540 has unhandled type 15
+Quest 44054 objective 286191 has unhandled type 15
+Quest 42019 objective 283396 has unhandled type 15
+Quest 45307 objective 287830 has unhandled type 15
+Quest 44895 objective 287261 has unhandled type 15
+Quest 44894 objective 287255 has unhandled type 15
+Quest 44893 objective 287249 has unhandled type 15
+Quest 44892 objective 287243 has unhandled type 15
+Quest 44823 objective 287289 has unhandled type 15
+Quest 44938 objective 287839 has unhandled type 15
+Quest 44867 objective 287466 has unhandled type 15
+Quest 44780 objective 287002 has unhandled type 15
+Quest 41961 objective 283211 has unhandled type 15
+Quest 46756 objective 289643 has unhandled type 15
+Quest 46833 objective 289744 has unhandled type 15
+Quest 47707 objective 290792 has unhandled type 15
+Quest 47854 objective 291303 has unhandled type 15
+Quest 46752 objective 289557 has unhandled type 15
+Quest 46750 objective 289548 has unhandled type 15
+Quest 46160 objective 289004 has unhandled type 15
+Quest 46073 objective 288852 has unhandled type 15
+Quest 45804 objective 288595 has unhandled type 15
+Quest 45795 objective 288539 has unhandled type 15
+Quest 45653 objective 288296 has unhandled type 15
+Quest 45586 objective 288187 has unhandled type 15
+Quest 45406 objective 287945 has unhandled type 15
+Quest 44884 objective 288273 has unhandled type 15
+Quest 44730 objective 288137 has unhandled type 15
+Quest 24974 has `RewardSpellCast` = 73435 but spell 73435 does not exist, quest will not have a spell reward.
+Spell (id: 267673) have SPELL_EFFECT_QUEST_COMPLETE for quest 39733, but quest not have flag QUEST_SPECIAL_FLAGS_EXPLORATION_OR_EVENT. Quest flags must be fixed, quest modified to enable objective.
+Spell (id: 267673) have SPELL_EFFECT_QUEST_COMPLETE for quest 44555, but quest not have flag QUEST_SPECIAL_FLAGS_EXPLORATION_OR_EVENT. Quest flags must be fixed, quest modified to enable objective.
+>> Loaded 29007 quests definitions in 3731 ms
+Checking Quest Disables
+>> Checked 5394 quest disables in 1 ms
+Loading Quest POI
+>> Loaded 56288 quest POI definitions in 1813 ms
+Loading Quests Starters and Enders...
+Loading GO Start Quest Data...
+>> Loaded 1108 quest relations from gameobject_queststarter in 42 ms
+Loading GO End Quest Data...
+>> Loaded 1228 quest relations from gameobject_questender in 87 ms
+Loading Creature Start Quest Data...
+>> Loaded 16317 quest relations from creature_queststarter in 68 ms
+Loading Creature End Quest Data...
+>> Loaded 22991 quest relations from creature_questender in 195 ms
+Loading Quest Greetings...
+>> Loaded 2 quest_greeting in 38 ms
+Loading Objects Pooling Data...
+>> Loaded 126 objects pools in 16 ms
+Loading Creatures Pooling Data...
+>> Loaded 37 creatures in pools in 2 ms
+Loading Gameobject Pooling Data...
+>> Loaded 258 gameobject in pools in 4 ms
+Loading Mother Pooling Data...
+>> Loaded 0 pools in pools
+Loading Quest Pooling Data...
+>> Loaded 10 quests in pools in 1 ms
+Starting objects pooling system...
+Loading Game Event Data...
+>> Loaded 70 game events in 28 ms.
+Loading Game Event Saves Data...
+>> Loaded 0 game event saves in game events. DB table `game_event_save` is empty.
+Loading Game Event Prerequisite Data...
+>> Loaded 0 game event prerequisites in game events. DB table `game_event_prerequisite` is empty.
+Loading Game Event Creature Data...
+>> Loaded 12796 creatures in game events in 24 ms.
+Loading Game Event GO Data...
+>> Loaded 26532 gameobjects in game events in 44 ms.
+Loading Game Event Model/Equipment Change Data...
+>> Loaded 0 model/equipment changes in game events. DB table `game_event_model_equip` is empty.
+Loading Game Event Quest Data...
+>> Loaded 327 quests additions in game events in 41 ms.
+Loading Game Event GO Quest Data...
+>> Loaded 189 quests additions in game events in 36 ms.
+Loading Game Event Quest Condition Data...
+>> Loaded 0 quest event conditions in game events. DB table `game_event_quest_condition` is empty.
+Loading Game Event Condition Data...
+>> Loaded 0 conditions in game events. DB table `game_event_condition` is empty.
+Loading Game Event Condition Save Data...
+>> Loaded 0 condition saves in game events. DB table `game_event_condition_save` is empty.
+Loading Game Event NPCflag Data...
+>> Loaded 0 npcflags in game events. DB table `game_event_npcflag` is empty.
+Loading Game Event Seasonal Quest Relations...
+>> Loaded 690 quests additions in game events in 74 ms.
+Loading Game Event Vendor Additions Data...
+>> Loaded 2 vendor additions in game events in 4 ms.
+Loading Game Event Battleground Data...
+>> Loaded 6 battleground holidays in game events in 15 ms.
+Loading Game Event Pool Data...
+>> Loaded 0 pools for game events. DB table `game_event_pool` is empty.
+Loading UNIT_NPC_FLAG_SPELLCLICK Data...
+npc_spellclick_spells: Creature template 130758 has UNIT_NPC_FLAG_SPELLCLICK but no data in spellclick table! Removing flag
+>> Loaded 1185 spellclick definitions in 103 ms
+Loading Vehicle Template Accessories...
+>> Loaded 321 Vehicle Template Accessories in 67 ms
+Loading Vehicle Accessories...
+>> Loaded 0 Vehicle Accessories in 18 ms
+Loading SpellArea Data...
+>> Loaded 887 spell area requirements in 78 ms
+Loading AreaTrigger definitions...
+Area Trigger (GUID: 22) has a non-existing Port Loc (ID: 0) in WorldSafeLocs.dbc, skipped
+>> Loaded 372 area trigger teleport definitions in 78 ms
+Loading Access Requirements...
+>> Loaded 287 access requirement definitions in 37 ms
+Loading Quest Area Triggers...
+>> Loaded 59 quest trigger points in 15 ms
+Loading Tavern Area Triggers...
+>> Loaded 183 tavern triggers in 17 ms
+Loading AreaTrigger script names...
+AreaTrigger (ID: 2200) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 9677) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 5559) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 314) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 373) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 5555) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 2763) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 1489) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 7630) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 7625) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 149959) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 983) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 12802) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 3691) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 7214) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 151582) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 11420) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 6022) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 7455) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 11353) does not exist in `AreaTrigger.dbc`.
+AreaTrigger (ID: 1520) does not exist in `AreaTrigger.dbc`.
+>> Loaded 254 areatrigger scripts in 21 ms
+Loading LFG entrance positions...
+table `lfg_dungeon_template` contains coordinates for wrong dungeon 200
+table `lfg_dungeon_template` contains coordinates for wrong dungeon 228
+table `lfg_dungeon_template` contains coordinates for wrong dungeon 229
+table `lfg_dungeon_template` contains coordinates for wrong dungeon 230
+table `lfg_dungeon_template` contains coordinates for wrong dungeon 231
+table `lfg_dungeon_template` contains coordinates for wrong dungeon 232
+table `lfg_dungeon_template` contains coordinates for wrong dungeon 233
+table `lfg_dungeon_template` contains coordinates for wrong dungeon 234
+table `lfg_dungeon_template` contains coordinates for wrong dungeon 235
+table `lfg_dungeon_template` contains coordinates for wrong dungeon 236
+table `lfg_dungeon_template` contains coordinates for wrong dungeon 358
+>> Loaded 451 lfg dungeon templates in 71 ms
+Failed to load dungeon Dark Iron Dwarf - Firelands (Id: 1893), no entrance for map 2076
+Failed to load dungeon Tol Dagor (Id: 1714), no entrance for map 1771
+Failed to load dungeon Shrine of the Storm (Id: 1774), no entrance for map 1864
+Failed to load dungeon The Underrot (Id: 1712), no entrance for map 1841
+Failed to load dungeon Verdant Wilds (Id: 1724), no entrance for map 1882
+Failed to load dungeon Waycrest Manor (Id: 1706), no entrance for map 1862
+Failed to load dungeon Tol Dagor (Id: 1778), no entrance for map 1771
+Failed to load dungeon The Battle for Lordaeron (Id: 1758), no entrance for map 1760
+Failed to load dungeon Atal'Dazar (Id: 1669), no entrance for map 1763
+Failed to load dungeon The MOTHERLODE!! (Id: 1707), no entrance for map 1594
+Failed to load dungeon Shrine of the Storm (Id: 1710), no entrance for map 1864
+Failed to load dungeon The Molten Cay (Id: 1765), no entrance for map 1897
+Failed to load dungeon The MOTHERLODE!! (Id: 1776), no entrance for map 1594
+Failed to load dungeon The Underrot (Id: 1777), no entrance for map 1841
+Failed to load dungeon Kings' Rest (Id: 1785), no entrance for map 1762
+Failed to load dungeon Heart of Corruption (Id: 1733), no entrance for map 1861
+Failed to load dungeon Freehold (Id: 1773), no entrance for map 1754
+Failed to load dungeon Mag'har Orc - Gorgrond (Id: 1771), no entrance for map 1917
+Failed to load dungeon Waycrest Manor (Id: 1779), no entrance for map 1862
+Failed to load dungeon The Rotting Mire (Id: 1723), no entrance for map 1892
+Failed to load dungeon For Zandalar! (Id: 1703), no entrance for map 1906
+Failed to load dungeon The Underrot (Id: 1711), no entrance for map 1841
+Failed to load dungeon Waycrest Manor (Id: 1705), no entrance for map 1862
+Failed to load dungeon Verdant Wilds (Id: 1743), no entrance for map 1882
+Failed to load dungeon Skittering Hollow (Id: 1747), no entrance for map 1898
+Failed to load dungeon The Molten Cay (Id: 1751), no entrance for map 1897
+Failed to load dungeon Siege of Boralus (Id: 1700), no entrance for map 1822
+Failed to load dungeon Expedition to Crescent Isle (Id: 1614), no entrance for map 1645
+Failed to load dungeon Uldir (Id: 1889), no entrance for map 1861
+Failed to load dungeon Freehold (Id: 1672), no entrance for map 1754
+Failed to load dungeon Kings' Rest (Id: 1784), no entrance for map 1762
+Failed to load dungeon Crimson Descent (Id: 1732), no entrance for map 1861
+Failed to load dungeon Atal'Dazar (Id: 1772), no entrance for map 1763
+Failed to load dungeon The Dread Chain (Id: 1748), no entrance for map 1893
+Failed to load dungeon Siege of Boralus (Id: 1701), no entrance for map 1822
+Failed to load dungeon Shrine of the Storm (Id: 1709), no entrance for map 1864
+Failed to load dungeon AI Test WSG (Id: 1508), no entrance for map 1740
+Failed to load dungeon Warfront Prototype (Id: 1588), no entrance for map 1765
+Failed to load dungeon Battle for Stromgarde (Id: 1615), no entrance for map 1876
+Failed to load dungeon [TEST] PvE Battleground (Id: 1661), no entrance for map 1686
+Failed to load dungeon Atal'Dazar (Id: 1668), no entrance for map 1763
+Failed to load dungeon Un'gol Ruins (Id: 1687), no entrance for map 1813
+Failed to load dungeon Strike Back! (Id: 1688), no entrance for map 1890
+Failed to load dungeon Temple of Sethraliss (Id: 1694), no entrance for map 1877
+Failed to load dungeon Temple of Sethraliss (Id: 1695), no entrance for map 1877
+Failed to load dungeon The Stormwind Extraction (Id: 1702), no entrance for map 1904
+Failed to load dungeon Freehold (Id: 1704), no entrance for map 1754
+Failed to load dungeon The MOTHERLODE!! (Id: 1708), no entrance for map 1594
+Failed to load dungeon Tol Dagor (Id: 1713), no entrance for map 1771
+Failed to load dungeon Skittering Hollow (Id: 1725), no entrance for map 1898
+Failed to load dungeon Halls of Containment (Id: 1731), no entrance for map 1861
+Failed to load dungeon The Dread Chain (Id: 1734), no entrance for map 1893
+Failed to load dungeon The Whispering Reef (Id: 1735), no entrance for map 1883
+Failed to load dungeon Un'gol Ruins (Id: 1738), no entrance for map 1813
+Failed to load dungeon Un'gol Ruins (Id: 1739), no entrance for map 1813
+Failed to load dungeon The Whispering Reef (Id: 1740), no entrance for map 1883
+Failed to load dungeon The Dread Chain (Id: 1741), no entrance for map 1893
+Failed to load dungeon Skittering Hollow (Id: 1742), no entrance for map 1898
+Failed to load dungeon The Rotting Mire (Id: 1744), no entrance for map 1892
+Failed to load dungeon The Rotting Mire (Id: 1745), no entrance for map 1892
+Failed to load dungeon Verdant Wilds (Id: 1746), no entrance for map 1882
+Failed to load dungeon The Whispering Reef (Id: 1749), no entrance for map 1883
+Failed to load dungeon The Molten Cay (Id: 1750), no entrance for map 1897
+Failed to load dungeon The Molten Cay (Id: 1752), no entrance for map 1897
+Failed to load dungeon Thros, the Blighted Lands (Id: 1753), no entrance for map 1944
+Failed to load dungeon The Battle for Lordaeron (Id: 1759), no entrance for map 1760
+Failed to load dungeon Battle for Stromgarde (Id: 1760), no entrance for map 1943
+Failed to load dungeon Un'gol Ruins (Id: 1761), no entrance for map 1813
+Failed to load dungeon Verdant Wilds (Id: 1763), no entrance for map 1882
+Failed to load dungeon The Rotting Mire (Id: 1764), no entrance for map 1892
+Failed to load dungeon The Dread Chain (Id: 1766), no entrance for map 1893
+Failed to load dungeon Skittering Hollow (Id: 1767), no entrance for map 1898
+Failed to load dungeon Uncharted Island (Id: 1768), no entrance for map 1955
+Failed to load dungeon Dark Iron Dwarf - Blackrock Depths (Id: 1769), no entrance for map 1932
+Failed to load dungeon Temple of Sethraliss (Id: 1775), no entrance for map 1877
+Failed to load dungeon Uldir (Id: 1887), no entrance for map 1861
+Failed to load dungeon Uldir (Id: 1888), no entrance for map 1861
+Failed to load dungeon Mag'har Orc - Siege of Orgrimmar (Id: 1890), no entrance for map 1884
+Failed to load dungeon Dark Iron Dwarf - Molten Core (Id: 1892), no entrance for map 1932
+>> LFG entrances: 451 from SQL, 171 from portal/graveyard/areatrigger fallback, 79 still missing
+Loading Dungeon boss data...
+>> Loaded 394 instance encounters in 60 ms
+Loading LFG rewards...
+>> Loaded 15 lfg dungeon rewards in 15 ms
+Loading Graveyard-zone links...
+>> Loaded 1530 graveyard-zone links in 71 ms
+Loading spell pet auras...
+>> Loaded 1 spell pet auras in 19 ms
+Loading Spell target coordinates...
+>> Loaded 1935 spell teleport coordinates in 82 ms
+Loading enchant custom attributes...
+>> Loaded 3 custom enchant attributes in 8 ms
+Loading linked spells...
+The spell 108936 Effect: 108943 listed in `spell_linked_spell` has same bp0 like effect (possible hack)
+>> Loaded 369 linked spells in 30 ms
+Loading Player Create Data...
+>> Loaded 267 player create definitions in 4 ms
+Loading Player Create Items Data...
+>> Loaded 32 custom player create items in 1 ms
+Loading Player Create Skill Data...
+>> Loaded player create skills in 1 ms
+Loading Player Create Custom Spell Data...
+>> Loaded 0 player create custom spells. DB table `playercreateinfo_spell_custom` is empty.
+Loading Player Create Cast Spell Data...
+>> Loaded 1003 player create cast spells in 1 ms
+Loading Player Create Action Data...
+>> Loaded 886 player create actions in 8 ms
+Loading Player Create Level Stats Data...
+>> Loaded 29370 level stats definitions in 204 ms
+Loading Player Create XP Data...
+>> Loaded 0 xp for level definition(s) from database in 16 ms
+Loading Exploration BaseXP Data...
+>> Loaded 100 BaseXP definitions in 36 ms
+Loading Pet Name Parts...
+>> Loaded 313 pet name parts in 32 ms
+Loading AreaTrigger Templates...
+>> Loaded 0 AreaTrigger templates circular movement infos. DB table `spell_areatrigger_circular` is empty.
+>> Loaded 922 spell areatrigger templates in 207 ms.
+Loading AreaTriggers...
+Table `areatrigger` has areatrigger (GUID: 4) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1544).
+Table `areatrigger` has areatrigger (GUID: 6) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1501).
+Table `areatrigger` has areatrigger (GUID: 8) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1677).
+Table `areatrigger` has areatrigger (GUID: 10) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1571).
+Table `areatrigger` has areatrigger (GUID: 12) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1466).
+Table `areatrigger` has areatrigger (GUID: 14) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1456).
+Table `areatrigger` has areatrigger (GUID: 16) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1477).
+Table `areatrigger` has areatrigger (GUID: 18) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1492).
+Table `areatrigger` has areatrigger (GUID: 20) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1458).
+Table `areatrigger` has areatrigger (GUID: 22) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1651).
+Table `areatrigger` has areatrigger (GUID: 24) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1516).
+Table `areatrigger` has areatrigger (GUID: 26) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1493).
+Table `areatrigger` has areatrigger (GUID: 28) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1520).
+Table `areatrigger` has areatrigger (GUID: 30) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1648).
+Table `areatrigger` has areatrigger (GUID: 32) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1530).
+Table `areatrigger` has areatrigger (GUID: 33) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1530).
+Table `areatrigger` has areatrigger (GUID: 35) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1676).
+Table `areatrigger` has areatrigger (GUID: 45) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1466).
+Table `areatrigger` has areatrigger (GUID: 47) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1753).
+>> Loaded 23 areatrigger in 14 ms
+Loading Conversation Templates...
+>> Loaded 64 Conversation actor templates in 0 ms
+>> Loaded 549 Conversation line templates in 1 ms
+>> Loaded 191 Conversation actors in 0 ms
+>> Loaded 269 Conversation templates in 1 ms
+Loading Scenes Templates...
+>> Loaded 0 scene templates in 2 ms.
+Loading Player Choices...
+>> Loaded 1 player choices, 2 responses, 2 rewards, 0 item rewards, 0 currency rewards and 0 faction rewards in 89 ms.
+Loading Player Choices Locales...
+>> Loaded 1 Player Choice locale strings in 17 ms
+>> Loaded 2 Player Choice Response locale strings in 4 ms
+Loading the max pet number...
+>> Loaded the max pet number: 0 in 1 ms
+Loading Player level dependent mail rewards...
+>> Loaded 14 level dependent mail rewards in 25 ms
+Loading creature loot templates...
+Table 'creature_loot_template' Entry 36756 does not exist but it is used by Creature 36756
+>> Loaded 914709 creature loot templates in 11787 ms
+Loading fishing loot templates...
+>> Loaded 3757 fishing loot templates in 172 ms
+Loading gameobject loot templates...
+Table 'gameobject_loot_template' Entry 30786 does not exist but it is used by Gameobject 204281
+Table 'gameobject_loot_template' Entry 29946 does not exist but it is used by Gameobject 203751
+Table 'gameobject_loot_template' Entry 29959 does not exist but it is used by Gameobject 203801
+Table 'gameobject_loot_template' Entry 29952 does not exist but it is used by Gameobject 203762
+Table 'gameobject_loot_template' Entry 203751 isn't gameobject entry and not referenced from loot, and thus useless.
+Table 'gameobject_loot_template' Entry 203762 isn't gameobject entry and not referenced from loot, and thus useless.
+Table 'gameobject_loot_template' Entry 203801 isn't gameobject entry and not referenced from loot, and thus useless.
+Table 'gameobject_loot_template' Entry 204281 isn't gameobject entry and not referenced from loot, and thus useless.
+>> Loaded 25886 gameobject loot templates in 462 ms
+Loading item loot templates...
+Table 'item_loot_template' Entry 200100 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200101 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200102 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200103 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200104 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200105 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200106 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200107 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200108 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200109 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200110 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200111 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200112 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200113 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200114 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200115 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200116 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200117 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200118 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200119 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200120 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200121 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200122 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200123 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200124 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200125 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200126 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200127 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200128 isn't item entry and not referenced from loot, and thus useless.
+Table 'item_loot_template' Entry 200129 isn't item entry and not referenced from loot, and thus useless.
+>> Loaded 6454 item loot templates in 210 ms
+Loading mail loot templates...
+>> Loaded 30 mail loot templates in 42 ms
+Loading milling loot templates...
+>> Loaded 131 milling loot templates in 72 ms
+Loading pickpocketing loot templates...
+>> Loaded 10951 pickpocketing loot templates in 390 ms
+Loading skinning loot templates...
+>> Loaded 11413 skinning loot templates in 405 ms
+Loading disenchanting loot templates...
+Table 'disenchant_loot_template' Entry 180 does not exist
+Table 'disenchant_loot_template' Entry 181 does not exist
+Table 'disenchant_loot_template' Entry 182 does not exist
+Table 'disenchant_loot_template' Entry 183 does not exist
+Table 'disenchant_loot_template' Entry 184 does not exist
+Table 'disenchant_loot_template' Entry 185 does not exist
+>> Loaded 226 disenchanting loot templates in 76 ms
+Loading prospecting loot templates...
+>> Loaded 92 prospecting loot templates in 67 ms
+Loading spell loot templates...
+Table 'spell_loot_template' Entry 263154 Item 141812: item entry not listed in `item_template` - skipped
+Table 'spell_loot_template' Entry 263154 Item 199880: item entry not listed in `item_template` - skipped
+Table 'spell_loot_template' Entry 263154 Item 122799: item entry not listed in `item_template` - skipped
+Table 'spell_loot_template' Entry 263154 Item 130660: item entry not listed in `item_template` - skipped
+Table 'spell_loot_template' Entry 263154 Item 134337: item entry not listed in `item_template` - skipped
+Table 'spell_loot_template' Entry 263153 Item 141822: item entry not listed in `item_template` - skipped
+Table 'spell_loot_template' Entry 263151 Item 107079: item entry not listed in `item_template` - skipped
+Table 'spell_loot_template' Entry 253113 does not exist but it is used by Spell 253113
+Table 'spell_loot_template' Entry 253116 does not exist but it is used by Spell 253116
+Table 'spell_loot_template' Entry 253117 does not exist but it is used by Spell 253117
+Table 'spell_loot_template' Entry 253118 does not exist but it is used by Spell 253118
+Table 'spell_loot_template' Entry 253125 does not exist but it is used by Spell 253125
+Table 'spell_loot_template' Entry 253132 does not exist but it is used by Spell 253132
+Table 'spell_loot_template' Entry 253135 does not exist but it is used by Spell 253135
+Table 'spell_loot_template' Entry 253138 does not exist but it is used by Spell 253138
+Table 'spell_loot_template' Entry 253141 does not exist but it is used by Spell 253141
+Table 'spell_loot_template' Entry 253144 does not exist but it is used by Spell 253144
+Table 'spell_loot_template' Entry 253149 does not exist but it is used by Spell 253149
+Table 'spell_loot_template' Entry 253156 does not exist but it is used by Spell 253156
+Table 'spell_loot_template' Entry 253157 does not exist but it is used by Spell 253157
+Table 'spell_loot_template' Entry 253158 does not exist but it is used by Spell 253158
+Table 'spell_loot_template' Entry 253159 does not exist but it is used by Spell 253159
+Table 'spell_loot_template' Entry 253160 does not exist but it is used by Spell 253160
+Table 'spell_loot_template' Entry 253161 does not exist but it is used by Spell 253161
+Table 'spell_loot_template' Entry 253162 does not exist but it is used by Spell 253162
+Table 'spell_loot_template' Entry 253165 does not exist but it is used by Spell 253165
+Table 'spell_loot_template' Entry 253168 does not exist but it is used by Spell 253168
+Table 'spell_loot_template' Entry 253171 does not exist but it is used by Spell 253171
+Table 'spell_loot_template' Entry 253174 does not exist but it is used by Spell 253174
+Table 'spell_loot_template' Entry 253177 does not exist but it is used by Spell 253177
+Table 'spell_loot_template' Entry 253180 does not exist but it is used by Spell 253180
+Table 'spell_loot_template' Entry 253183 does not exist but it is used by Spell 253183
+Table 'spell_loot_template' Entry 253186 does not exist but it is used by Spell 253186
+Table 'spell_loot_template' Entry 253187 does not exist but it is used by Spell 253187
+Table 'spell_loot_template' Entry 253188 does not exist but it is used by Spell 253188
+Table 'spell_loot_template' Entry 253190 does not exist but it is used by Spell 253190
+Table 'spell_loot_template' Entry 253191 does not exist but it is used by Spell 253191
+Table 'spell_loot_template' Entry 253192 does not exist but it is used by Spell 253192
+Table 'spell_loot_template' Entry 255457 does not exist but it is used by Spell 255457
+Table 'spell_loot_template' Entry 255458 does not exist but it is used by Spell 255458
+Table 'spell_loot_template' Entry 255459 does not exist but it is used by Spell 255459
+Table 'spell_loot_template' Entry 255610 does not exist but it is used by Spell 255610
+Table 'spell_loot_template' Entry 256164 does not exist but it is used by Spell 256164
+Table 'spell_loot_template' Entry 256217 does not exist but it is used by Spell 256217
+Table 'spell_loot_template' Entry 256218 does not exist but it is used by Spell 256218
+Table 'spell_loot_template' Entry 256219 does not exist but it is used by Spell 256219
+Table 'spell_loot_template' Entry 256220 does not exist but it is used by Spell 256220
+Table 'spell_loot_template' Entry 256221 does not exist but it is used by Spell 256221
+Table 'spell_loot_template' Entry 256223 does not exist but it is used by Spell 256223
+Table 'spell_loot_template' Entry 256245 does not exist but it is used by Spell 256245
+Table 'spell_loot_template' Entry 256246 does not exist but it is used by Spell 256246
+Table 'spell_loot_template' Entry 256247 does not exist but it is used by Spell 256247
+Table 'spell_loot_template' Entry 256248 does not exist but it is used by Spell 256248
+Table 'spell_loot_template' Entry 256249 does not exist but it is used by Spell 256249
+Table 'spell_loot_template' Entry 256308 does not exist but it is used by Spell 256308
+Table 'spell_loot_template' Entry 256323 does not exist but it is used by Spell 256323
+Table 'spell_loot_template' Entry 256611 does not exist but it is used by Spell 256611
+Table 'spell_loot_template' Entry 256613 does not exist but it is used by Spell 256613
+Table 'spell_loot_template' Entry 256622 does not exist but it is used by Spell 256622
+Table 'spell_loot_template' Entry 256748 does not exist but it is used by Spell 256748
+Table 'spell_loot_template' Entry 256749 does not exist but it is used by Spell 256749
+Table 'spell_loot_template' Entry 256750 does not exist but it is used by Spell 256750
+Table 'spell_loot_template' Entry 256751 does not exist but it is used by Spell 256751
+Table 'spell_loot_template' Entry 256752 does not exist but it is used by Spell 256752
+Table 'spell_loot_template' Entry 256754 does not exist but it is used by Spell 256754
+Table 'spell_loot_template' Entry 256755 does not exist but it is used by Spell 256755
+Table 'spell_loot_template' Entry 256756 does not exist but it is used by Spell 256756
+Table 'spell_loot_template' Entry 256757 does not exist but it is used by Spell 256757
+Table 'spell_loot_template' Entry 256758 does not exist but it is used by Spell 256758
+Table 'spell_loot_template' Entry 256759 does not exist but it is used by Spell 256759
+Table 'spell_loot_template' Entry 256760 does not exist but it is used by Spell 256760
+Table 'spell_loot_template' Entry 256761 does not exist but it is used by Spell 256761
+Table 'spell_loot_template' Entry 256762 does not exist but it is used by Spell 256762
+Table 'spell_loot_template' Entry 256763 does not exist but it is used by Spell 256763
+Table 'spell_loot_template' Entry 256764 does not exist but it is used by Spell 256764
+Table 'spell_loot_template' Entry 256765 does not exist but it is used by Spell 256765
+Table 'spell_loot_template' Entry 256766 does not exist but it is used by Spell 256766
+Table 'spell_loot_template' Entry 256767 does not exist but it is used by Spell 256767
+Table 'spell_loot_template' Entry 256768 does not exist but it is used by Spell 256768
+Table 'spell_loot_template' Entry 256769 does not exist but it is used by Spell 256769
+Table 'spell_loot_template' Entry 256770 does not exist but it is used by Spell 256770
+Table 'spell_loot_template' Entry 256771 does not exist but it is used by Spell 256771
+Table 'spell_loot_template' Entry 256772 does not exist but it is used by Spell 256772
+Table 'spell_loot_template' Entry 256773 does not exist but it is used by Spell 256773
+Table 'spell_loot_template' Entry 256774 does not exist but it is used by Spell 256774
+Table 'spell_loot_template' Entry 256775 does not exist but it is used by Spell 256775
+Table 'spell_loot_template' Entry 256776 does not exist but it is used by Spell 256776
+Table 'spell_loot_template' Entry 256777 does not exist but it is used by Spell 256777
+Table 'spell_loot_template' Entry 256778 does not exist but it is used by Spell 256778
+Table 'spell_loot_template' Entry 256779 does not exist but it is used by Spell 256779
+Table 'spell_loot_template' Entry 256780 does not exist but it is used by Spell 256780
+Table 'spell_loot_template' Entry 256781 does not exist but it is used by Spell 256781
+Table 'spell_loot_template' Entry 256782 does not exist but it is used by Spell 256782
+Table 'spell_loot_template' Entry 256783 does not exist but it is used by Spell 256783
+Table 'spell_loot_template' Entry 256784 does not exist but it is used by Spell 256784
+Table 'spell_loot_template' Entry 256786 does not exist but it is used by Spell 256786
+Table 'spell_loot_template' Entry 256787 does not exist but it is used by Spell 256787
+Table 'spell_loot_template' Entry 256788 does not exist but it is used by Spell 256788
+Table 'spell_loot_template' Entry 256789 does not exist but it is used by Spell 256789
+Table 'spell_loot_template' Entry 257095 does not exist but it is used by Spell 257095
+Table 'spell_loot_template' Entry 257096 does not exist but it is used by Spell 257096
+Table 'spell_loot_template' Entry 257097 does not exist but it is used by Spell 257097
+Table 'spell_loot_template' Entry 257099 does not exist but it is used by Spell 257099
+Table 'spell_loot_template' Entry 257101 does not exist but it is used by Spell 257101
+Table 'spell_loot_template' Entry 257102 does not exist but it is used by Spell 257102
+Table 'spell_loot_template' Entry 257103 does not exist but it is used by Spell 257103
+Table 'spell_loot_template' Entry 257104 does not exist but it is used by Spell 257104
+Table 'spell_loot_template' Entry 257107 does not exist but it is used by Spell 257107
+Table 'spell_loot_template' Entry 257114 does not exist but it is used by Spell 257114
+Table 'spell_loot_template' Entry 257115 does not exist but it is used by Spell 257115
+Table 'spell_loot_template' Entry 257116 does not exist but it is used by Spell 257116
+Table 'spell_loot_template' Entry 257118 does not exist but it is used by Spell 257118
+Table 'spell_loot_template' Entry 257120 does not exist but it is used by Spell 257120
+Table 'spell_loot_template' Entry 257121 does not exist but it is used by Spell 257121
+Table 'spell_loot_template' Entry 257122 does not exist but it is used by Spell 257122
+Table 'spell_loot_template' Entry 257123 does not exist but it is used by Spell 257123
+Table 'spell_loot_template' Entry 257124 does not exist but it is used by Spell 257124
+Table 'spell_loot_template' Entry 257715 does not exist but it is used by Spell 257715
+Table 'spell_loot_template' Entry 257716 does not exist but it is used by Spell 257716
+Table 'spell_loot_template' Entry 257717 does not exist but it is used by Spell 257717
+Table 'spell_loot_template' Entry 257718 does not exist but it is used by Spell 257718
+Table 'spell_loot_template' Entry 257719 does not exist but it is used by Spell 257719
+Table 'spell_loot_template' Entry 257720 does not exist but it is used by Spell 257720
+Table 'spell_loot_template' Entry 257721 does not exist but it is used by Spell 257721
+Table 'spell_loot_template' Entry 257722 does not exist but it is used by Spell 257722
+Table 'spell_loot_template' Entry 257723 does not exist but it is used by Spell 257723
+Table 'spell_loot_template' Entry 257724 does not exist but it is used by Spell 257724
+Table 'spell_loot_template' Entry 260384 does not exist but it is used by Spell 260384
+Table 'spell_loot_template' Entry 261837 does not exist but it is used by Spell 261837
+Table 'spell_loot_template' Entry 263251 does not exist but it is used by Spell 263251
+Table 'spell_loot_template' Entry 265106 does not exist but it is used by Spell 265106
+Table 'spell_loot_template' Entry 265110 does not exist but it is used by Spell 265110
+Table 'spell_loot_template' Entry 265111 does not exist but it is used by Spell 265111
+Table 'spell_loot_template' Entry 265112 does not exist but it is used by Spell 265112
+Table 'spell_loot_template' Entry 265698 does not exist but it is used by Spell 265698
+Table 'spell_loot_template' Entry 269421 does not exist but it is used by Spell 269421
+Table 'spell_loot_template' Entry 269422 does not exist but it is used by Spell 269422
+Table 'spell_loot_template' Entry 269423 does not exist but it is used by Spell 269423
+Table 'spell_loot_template' Entry 269424 does not exist but it is used by Spell 269424
+Table 'spell_loot_template' Entry 269425 does not exist but it is used by Spell 269425
+Table 'spell_loot_template' Entry 269426 does not exist but it is used by Spell 269426
+Table 'spell_loot_template' Entry 269444 does not exist but it is used by Spell 269444
+Table 'spell_loot_template' Entry 269446 does not exist but it is used by Spell 269446
+Table 'spell_loot_template' Entry 269447 does not exist but it is used by Spell 269447
+Table 'spell_loot_template' Entry 269448 does not exist but it is used by Spell 269448
+Table 'spell_loot_template' Entry 269449 does not exist but it is used by Spell 269449
+Table 'spell_loot_template' Entry 269450 does not exist but it is used by Spell 269450
+Table 'spell_loot_template' Entry 269451 does not exist but it is used by Spell 269451
+Table 'spell_loot_template' Entry 269452 does not exist but it is used by Spell 269452
+Table 'spell_loot_template' Entry 269453 does not exist but it is used by Spell 269453
+Table 'spell_loot_template' Entry 269458 does not exist but it is used by Spell 269458
+Table 'spell_loot_template' Entry 269459 does not exist but it is used by Spell 269459
+Table 'spell_loot_template' Entry 269460 does not exist but it is used by Spell 269460
+Table 'spell_loot_template' Entry 269464 does not exist but it is used by Spell 269464
+Table 'spell_loot_template' Entry 269465 does not exist but it is used by Spell 269465
+Table 'spell_loot_template' Entry 269466 does not exist but it is used by Spell 269466
+Table 'spell_loot_template' Entry 269470 does not exist but it is used by Spell 269470
+Table 'spell_loot_template' Entry 269471 does not exist but it is used by Spell 269471
+Table 'spell_loot_template' Entry 269472 does not exist but it is used by Spell 269472
+Table 'spell_loot_template' Entry 269476 does not exist but it is used by Spell 269476
+Table 'spell_loot_template' Entry 269477 does not exist but it is used by Spell 269477
+Table 'spell_loot_template' Entry 269478 does not exist but it is used by Spell 269478
+Table 'spell_loot_template' Entry 269479 does not exist but it is used by Spell 269479
+Table 'spell_loot_template' Entry 269480 does not exist but it is used by Spell 269480
+Table 'spell_loot_template' Entry 269481 does not exist but it is used by Spell 269481
+Table 'spell_loot_template' Entry 269516 does not exist but it is used by Spell 269516
+Table 'spell_loot_template' Entry 269517 does not exist but it is used by Spell 269517
+Table 'spell_loot_template' Entry 269518 does not exist but it is used by Spell 269518
+Table 'spell_loot_template' Entry 269519 does not exist but it is used by Spell 269519
+Table 'spell_loot_template' Entry 269520 does not exist but it is used by Spell 269520
+Table 'spell_loot_template' Entry 269521 does not exist but it is used by Spell 269521
+Table 'spell_loot_template' Entry 269522 does not exist but it is used by Spell 269522
+Table 'spell_loot_template' Entry 269523 does not exist but it is used by Spell 269523
+Table 'spell_loot_template' Entry 269524 does not exist but it is used by Spell 269524
+Table 'spell_loot_template' Entry 269525 does not exist but it is used by Spell 269525
+Table 'spell_loot_template' Entry 269526 does not exist but it is used by Spell 269526
+Table 'spell_loot_template' Entry 269527 does not exist but it is used by Spell 269527
+Table 'spell_loot_template' Entry 269528 does not exist but it is used by Spell 269528
+Table 'spell_loot_template' Entry 269529 does not exist but it is used by Spell 269529
+Table 'spell_loot_template' Entry 269530 does not exist but it is used by Spell 269530
+Table 'spell_loot_template' Entry 269531 does not exist but it is used by Spell 269531
+Table 'spell_loot_template' Entry 269532 does not exist but it is used by Spell 269532
+Table 'spell_loot_template' Entry 269533 does not exist but it is used by Spell 269533
+Table 'spell_loot_template' Entry 269534 does not exist but it is used by Spell 269534
+Table 'spell_loot_template' Entry 269535 does not exist but it is used by Spell 269535
+Table 'spell_loot_template' Entry 269536 does not exist but it is used by Spell 269536
+Table 'spell_loot_template' Entry 269537 does not exist but it is used by Spell 269537
+Table 'spell_loot_template' Entry 269538 does not exist but it is used by Spell 269538
+Table 'spell_loot_template' Entry 269539 does not exist but it is used by Spell 269539
+Table 'spell_loot_template' Entry 269540 does not exist but it is used by Spell 269540
+Table 'spell_loot_template' Entry 269541 does not exist but it is used by Spell 269541
+Table 'spell_loot_template' Entry 269542 does not exist but it is used by Spell 269542
+Table 'spell_loot_template' Entry 269543 does not exist but it is used by Spell 269543
+Table 'spell_loot_template' Entry 269544 does not exist but it is used by Spell 269544
+Table 'spell_loot_template' Entry 269545 does not exist but it is used by Spell 269545
+Table 'spell_loot_template' Entry 269552 does not exist but it is used by Spell 269552
+Table 'spell_loot_template' Entry 269553 does not exist but it is used by Spell 269553
+Table 'spell_loot_template' Entry 269554 does not exist but it is used by Spell 269554
+Table 'spell_loot_template' Entry 269596 does not exist but it is used by Spell 269596
+Table 'spell_loot_template' Entry 269597 does not exist but it is used by Spell 269597
+Table 'spell_loot_template' Entry 269598 does not exist but it is used by Spell 269598
+Table 'spell_loot_template' Entry 269599 does not exist but it is used by Spell 269599
+Table 'spell_loot_template' Entry 269600 does not exist but it is used by Spell 269600
+Table 'spell_loot_template' Entry 269601 does not exist but it is used by Spell 269601
+Table 'spell_loot_template' Entry 269602 does not exist but it is used by Spell 269602
+Table 'spell_loot_template' Entry 269603 does not exist but it is used by Spell 269603
+Table 'spell_loot_template' Entry 269604 does not exist but it is used by Spell 269604
+Table 'spell_loot_template' Entry 269605 does not exist but it is used by Spell 269605
+Table 'spell_loot_template' Entry 269606 does not exist but it is used by Spell 269606
+Table 'spell_loot_template' Entry 269607 does not exist but it is used by Spell 269607
+Table 'spell_loot_template' Entry 269608 does not exist but it is used by Spell 269608
+Table 'spell_loot_template' Entry 269609 does not exist but it is used by Spell 269609
+Table 'spell_loot_template' Entry 269610 does not exist but it is used by Spell 269610
+Table 'spell_loot_template' Entry 269611 does not exist but it is used by Spell 269611
+Table 'spell_loot_template' Entry 269612 does not exist but it is used by Spell 269612
+Table 'spell_loot_template' Entry 269613 does not exist but it is used by Spell 269613
+Table 'spell_loot_template' Entry 269715 does not exist but it is used by Spell 269715
+Table 'spell_loot_template' Entry 269716 does not exist but it is used by Spell 269716
+Table 'spell_loot_template' Entry 269719 does not exist but it is used by Spell 269719
+Table 'spell_loot_template' Entry 269727 does not exist but it is used by Spell 269727
+Table 'spell_loot_template' Entry 269728 does not exist but it is used by Spell 269728
+Table 'spell_loot_template' Entry 269729 does not exist but it is used by Spell 269729
+Table 'spell_loot_template' Entry 269740 does not exist but it is used by Spell 269740
+Table 'spell_loot_template' Entry 269741 does not exist but it is used by Spell 269741
+Table 'spell_loot_template' Entry 269742 does not exist but it is used by Spell 269742
+Table 'spell_loot_template' Entry 272502 does not exist but it is used by Spell 272502
+Table 'spell_loot_template' Entry 272937 does not exist but it is used by Spell 272937
+Table 'spell_loot_template' Entry 273812 does not exist but it is used by Spell 273812
+Table 'spell_loot_template' Entry 273851 does not exist but it is used by Spell 273851
+Table 'spell_loot_template' Entry 278131 does not exist but it is used by Spell 278131
+Table 'spell_loot_template' Entry 278132 does not exist but it is used by Spell 278132
+Table 'spell_loot_template' Entry 278133 does not exist but it is used by Spell 278133
+Table 'spell_loot_template' Entry 278527 does not exist but it is used by Spell 278527
+Table 'spell_loot_template' Entry 280608 does not exist but it is used by Spell 280608
+Table 'spell_loot_template' Entry 263148 isn't spell id (random item creating) and not referenced from loot, and thus useless.
+Table 'spell_loot_template' Entry 263149 isn't spell id (random item creating) and not referenced from loot, and thus useless.
+Table 'spell_loot_template' Entry 263150 isn't spell id (random item creating) and not referenced from loot, and thus useless.
+Table 'spell_loot_template' Entry 263151 isn't spell id (random item creating) and not referenced from loot, and thus useless.
+Table 'spell_loot_template' Entry 263152 isn't spell id (random item creating) and not referenced from loot, and thus useless.
+Table 'spell_loot_template' Entry 263153 isn't spell id (random item creating) and not referenced from loot, and thus useless.
+Table 'spell_loot_template' Entry 263154 isn't spell id (random item creating) and not referenced from loot, and thus useless.
+>> Loaded 2681 spell loot templates in 406 ms
+Loading reference loot templates...
+>> Loaded refence loot templates in 266 ms
+Loading Skill Discovery Table...
+>> Loaded 130 skill discovery definitions in 105 ms.
+Loading Skill Extra Item Table...
+>> Loaded 219 spell specialization definitions in 5 ms
+Loading Skill Perfection Data Table...
+>> Loaded 47 spell perfection definitions in 24 ms.
+Loading Skill Fishing base level requirements...
+>> Loaded 93 areas for fishing base skill level in 33 ms
+Loading skill tier info...
+>> Loaded 34 skill max values in 17 ms
+Loading Criteria Modifier trees...
+>> Loaded 74693 criteria modifiers in 52 ms
+Loading Criteria Lists...
+
+D:\legionforge\core\src\server\game\Achievements\CriteriaHandler.cpp:2388 in CriteriaMgr::LoadCriteriaList ASSERTION FAILED:
+  criteriaEntry->Type < CRITERIA_TYPE_TOTAL CRITERIA_TYPE_TOTAL must be greater than or equal to 214 but is currently equal to 213
+  breadcrumb: none
+Для продолжения нажмите любую клавишу . . .
